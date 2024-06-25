@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     './app-nuxt-tailwindcss-layer', // NavBar and Footer components
   ],
   // ssr: false,
-  devtools: { enabled: false }, // Disable when using Vue devtools
+  // devtools: { enabled: false }, // Disable when using Vue devtools
 
   // Preparation for Nuxt 4 migration
   srcDir: 'app',
@@ -56,14 +56,14 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxt/content',
     '@vueuse/nuxt',
-    '@pinia/nuxt',
-    // '@nuxtjs/html-validator',
+    '@pinia/nuxt', // '@nuxtjs/html-validator',
     '@nuxt/image',
     '@vee-validate/nuxt',
     '@nuxtseo/module',
     '@nuxtjs/fontaine',
     '@nuxtjs/critters',
     'nuxt-icon',
+    '@nuxthq/studio',
   ],
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   fontMetrics: {
