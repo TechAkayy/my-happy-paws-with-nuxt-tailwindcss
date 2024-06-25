@@ -1,10 +1,10 @@
 # Happy Paws - Fullstack, SEO friendly, performant app with Nuxt & Tailwind CSS
 
-Nuxt 3 Fullstack (SPA-SSR) app for an pet adoption organisation. Pet data is fetched via APIs served by server routes (Nitro-powered), statically generated articles fetched from an external REST API source, a blog authored with markdown files, and everything styled with the power and beauty of Tailwind CSS.
+Nuxt 3 Fullstack (SPA-SSR) app for an pet adoption organisation. Pet data is fetched via APIs served by server routes (Nitro-powered), statically generated articles fetched from an external REST API source, a blog authored with markdown files, and everything styled with the power and beauty of Tailwind CSS. This is nice.
 
 This is a sample project created using the [Vue Designer Nuxt Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-nuxt-tailwindcss).
 
-Demo - https://happy-paws-with-nuxt-tailwindcss.netlify.app/
+Demo - <https://happy-paws-with-nuxt-tailwindcss.netlify.app/>
 
 ## Vue Designer
 
@@ -81,9 +81,9 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ### Meta Framework (Vue-based)
 
 - [Nuxt](https://nuxt.com/) - The Intuitive Vue Framework
-  - 👉 Follow the Nuxt docs for the amazing list of [features](https://nuxt.com/docs/getting-started/introduction).
-  - 🚦 [Nuxt-Router](https://nuxt.com/docs/getting-started/routing), based on the official [Vue-Router](https://vuejs.org/guide/introduction.html) and enables file-based routing.
-  - SSR friendly `useState` composable to share state across components.
+  * 👉 Follow the Nuxt docs for the amazing list of [features](https://nuxt.com/docs/getting-started/introduction).
+  * 🚦 [Nuxt-Router](https://nuxt.com/docs/getting-started/routing), based on the official [Vue-Router](https://vuejs.org/guide/introduction.html) and enables file-based routing.
+  * SSR friendly `useState` composable to share state across components.
 
 ### UI Frameworks
 
@@ -110,16 +110,16 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ### Devtools
 
 - [Nuxt Devtools](https://devtools.nuxtjs.org) - Enhance your DX (developer experience) with an amazing set of in-app features.
-  - **ACTION REQUIRED**: Currently deactivated. In `nuxt.config.ts`, uncomment module to activate.
+  * **ACTION REQUIRED**: Currently deactivated. In `nuxt.config.ts`, uncomment module to activate.
 - [Vue Devtools](https://devtools.vuejs.org/guide/installation.html#standalone) - Official devtools that can be used as a standalone app alongside Vue Designer. It's configured as a Nuxt plugin (only during development).
-  - **ACTION REQUIRED**: Currently deactivated. In `plugins/devtools.client.ts`, uncomment to activate.
+  * **ACTION REQUIRED**: Currently deactivated. In `plugins/devtools.client.ts`, uncomment to activate.
 
 ### VS Code Extensions
 
-- [VS Code Extensions](./.vscode/extensions.json & ./.vscode/settings.json)
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
-  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- \[VS Code Extensions]\(./.vscode/extensions.json & ./.vscode/settings.json)
+  * [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
+  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### Coding Style
 
