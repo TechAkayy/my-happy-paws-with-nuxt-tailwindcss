@@ -32,6 +32,16 @@ export default defineNuxtConfig({
     componentIslands: true,
   },
 
+  alias: {
+    /* Must be either an object, or an array of { find, replacement, customResolver } pairs. */
+    /* Refer to: https://vitejs.dev/config/shared-options.html#resolve-alias */
+    /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+
+    '@': fileURLToPath(new URL('./app', import.meta.url)),
+    '~': fileURLToPath(new URL('./app', import.meta.url)),
+    '~~': fileURLToPath(new URL('./', import.meta.url)),
+  },
+
   app: {
     baseURL: '/', // defaulted by nuxt
     // Look into HeadAndMeta.vue for the rest
